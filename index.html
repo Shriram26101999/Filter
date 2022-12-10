@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Filter</title>
+    <link rel="shortcut icon" href="https://twemoji.maxcdn.com/2/svg/1f47d.svg" type="image/x-icon">
+    
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1>Filter UI cards via their Profession</h1>
+    <div class="main">
+        <select class="select" onchange="selectProf()" id="prof">
+            <option value="">Select Profession</option>
+            <option value="developer">Developer</option>
+            <option value="admin">Admin</option>
+        </select>
+    </div>
+    <div id="employee">
+
+    </div>
+    <button class="btn" onclick="filter()">Filter</button>
+    <script src="index.js"></script>
+    
+    
+</body>
+</html>
