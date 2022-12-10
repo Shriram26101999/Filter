@@ -2,9 +2,9 @@ let employee = document.getElementById('employee');
 let e=document.getElementById('prof');
 
 let prof = [
-    {id:1,name:"john",age:"18",profession:"developer"},
-    {id:2, name:"jack",age:"20", profession:"developer"},
-    {id:3, name:"karen", age:"19",profession:"admin"}
+    {id:1,name:"john",profession:"developer",age:"18"},
+    {id:2, name:"jack", profession:"developer",age:"20"},
+    {id:3, name:"karen",profession:"admin",age:"19"}
 ]
 
 let strProf='';
@@ -32,9 +32,9 @@ prof.forEach(item => {
 
 
 let profTwo = [
-    {id:4,name:"jack",age:20,profession:"admin"},
-    {id:5, name:"jill",age:21, profession:"admin"},
-    {id:6, name:"kevin", age:22,profession:"developer"}
+    {id:4,name:"jack",profession:"admin",age:20},
+    {id:5, name:"jill", profession:"admin",age:21},
+    {id:6, name:"kevin",profession:"developer", age:22}
     ]
 const list=[...prof,...profTwo];
 
